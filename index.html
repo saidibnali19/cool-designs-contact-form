@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="University of Nairobi Students Consulting Group, UoNSCG, is the first Consulting Club at a Kenyan University." />
+  <meta name="keywords"
+    content="University of Nairobi Students Consulting Group, UoNSCG, the first Consulting Club at a Kenyan University." />
+  <title>Contact form - Cool designs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="bg-primary text-secondary fs-400 ff-body fw-normal wrapper">
+  <main id="main">
+    <article class="flow">
+      <h1 class="fs-600 text-center">USE THIS FORM TO CONTACT ME FOR ALL QUESTIONS AND COMMENTS.</h1>
+      <p class="fs-600 text-center">I LOOK FORWARD TO HEARING FROM YOU.</p>
+        <p class="fs-600 text-center">CHEERS!</p>
+      <form class="flow">
+        <div class="name | flow">
+          <p>Name <span class="subdued fs-300">(required)</span></p>
+          <div class="names | grid">
+          <div>
+            <label class="fs-300" for="first-name">First Name</label>
+            <input type="text" id="first-name" required>
+          </div>
+          <div>
+            <label class="fs-300" for="last-name">Last Name</label>
+            <input type="text" id="last-name" required>
+          </div>
+          </div>
+        </div>
+        <div class="email | flow">
+          <label for="email">Email <span class="subdued fs-300">(required)</span></label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="subject | flow">
+          <label for="subject">Subject <span class="subdued fs-300">(required)</span></label>
+          <input type="text" id="subject">
+        </div>
+        <div class="message | flow">
+          <label for="message">Message <span class="subdued fs-300">(required)</span></label>
+          <textarea id="message" rows="4" required></textarea>
+        </div>
+        <button class="btn-primary bg-accent ff-heading fs-400 uppercase text-primary">Submit</button>
+      </form>
+    </article>
+  </main>
+</body>
+
+</html>
